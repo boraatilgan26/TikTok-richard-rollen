@@ -158,3 +158,79 @@ export function finlandFlag(ctx, x, y, w = 240) {
   ctx.fillStyle = '#1f4fa0'; ctx.fillRect(x - w / 2 + w * 0.28, y - h / 2 + 4, w * 0.18, h - 8); ctx.fillRect(x - w / 2 + 4, y - h * 0.11, w - 8, h * 0.22);
   box(ctx, x - w / 2, y - h / 2, w, h, 8, null);
 }
+
+// ---------- Villa-Esszimmer ----------
+export function diningRoom(ctx) {
+  room(ctx, '#e9dcc6', '#8a5a3a', 'rgba(255,255,255,0.22)');
+  // Gemälde mit Goldrahmen (Richard-Portrait)
+  box(ctx, 360, 380, 360, 300, 10, C.gold); box(ctx, 385, 405, 310, 250, 6, '#6a8ab0', 5);
+  circ(ctx, 540, 500, 60, '#ffd9bf', 5); box(ctx, 480, 560, 120, 95, 30, '#fff', 5); box(ctx, 532, 565, 16, 70, 4, C.gold, 4);
+  // Kronleuchter
+  line(ctx, 540, 0, 540, 180, OL, 6); box(ctx, 420, 180, 240, 30, 15, C.gold);
+  for (let i = 0; i < 5; i++) { circ(ctx, 440 + i * 50, 230, 14, '#fff3b0', 4); }
+  // Fenster
+  box(ctx, 60, 420, 220, 360, 10, '#bfe0f2'); line(ctx, 170, 420, 170, 780, OL, 7);
+  box(ctx, 800, 420, 220, 360, 10, '#bfe0f2'); line(ctx, 910, 420, 910, 780, OL, 7);
+}
+export function longTable(ctx, y = FLOOR) {
+  box(ctx, 120, y - 250, 840, 40, 12, '#fff'); box(ctx, 160, y - 212, 30, 210, 6, '#7a4a2a'); box(ctx, 890, y - 212, 30, 210, 6, '#7a4a2a');
+  for (const x of [300, 540, 780]) { ell(ctx, x, y - 258, 60, 14, '#f4f4f4', 5); }
+  box(ctx, 525, y - 340, 30, 80, 6, '#fff', 4); ell(ctx, 540, y - 350, 10, 16, '#ffb84a', 0);
+}
+export function brokenPlates(ctx, x, y) {
+  for (const [dx, dy, r] of [[-60, 0, 0.4], [-10, 10, -0.6], [50, -4, 0.9], [90, 8, -0.2]]) {
+    ctx.save(); ctx.translate(x + dx, y + dy); ctx.rotate(r); poly(ctx, [[-30, 0], [0, -14], [34, -4], [10, 12]], '#fff', 5); ctx.restore();
+  }
+  box(ctx, x - 110, y + 14, 220, 16, 6, '#c0c0c8', 5);
+}
+
+// ---------- Vorstand ----------
+export function boardroom(ctx) {
+  ctx.fillStyle = '#dfe4ec'; ctx.fillRect(0, 0, W, FLOOR);
+  box(ctx, 0, 300, W, 600, 0, '#9ac0e0', 0);
+  for (let i = 0; i < 8; i++) { const x = i * 140 - 10, h = 200 + (i * 53) % 230; box(ctx, x, 900 - h, 110, h, 4, '#6a8ab0', 4); }
+  for (let x = 0; x <= W; x += 270) line(ctx, x, 300, x, 900, '#ffffff', 10);
+  line(ctx, 0, 300, W, 300, OL, 7); line(ctx, 0, 900, W, 900, OL, 7);
+  woodFloor(ctx, '#7a6a6a');
+}
+export function boardTable(ctx, y = FLOOR) { box(ctx, 60, y - 230, 960, 50, 14, '#5a3a2a'); box(ctx, 120, y - 182, 840, 180, 6, '#4a2e22'); }
+export function stockChart(ctx, x, y, w, h, k) {
+  box(ctx, x - w / 2, y - h / 2, w, h, 20, '#1d2236');
+  const pts = [[0, 0.3], [0.2, 0.25], [0.35, 0.35], [0.5, 0.28], [0.62, 0.32], [0.75, 0.6], [0.88, 0.75], [1, 0.82]];
+  ctx.beginPath(); const n = Math.max(2, Math.ceil(pts.length * clamp(k)));
+  pts.slice(0, n).forEach(([px, py], i) => { const X = x - w / 2 + 40 + px * (w - 80), Y = y - h / 2 + 40 + py * (h - 80); i ? ctx.lineTo(X, Y) : ctx.moveTo(X, Y); });
+  ctx.strokeStyle = '#ff5a5a'; ctx.lineWidth = 12; ctx.lineJoin = 'round'; ctx.stroke();
+}
+
+// ---------- Restaurant ----------
+export function restaurant(ctx) {
+  room(ctx, '#7a2e3a', '#4a2a2a', 'rgba(255,255,255,0.06)');
+  for (const x of [160, 540, 920]) { box(ctx, x - 90, 420, 180, 140, 8, C.gold); box(ctx, x - 70, 440, 140, 100, 4, '#e8d8b8', 4); }
+  for (const x of [160, 540, 920]) { line(ctx, x, 0, x, 260, OL, 5); ell(ctx, x, 280, 60, 30, '#f5c84b'); }
+}
+export function dinnerTable(ctx, x, y = FLOOR) {
+  box(ctx, x - 200, y - 230, 400, 40, 10, '#fff'); poly(ctx, [[x - 200, y - 190], [x + 200, y - 190], [x + 180, y - 60], [x - 180, y - 60]], '#fff');
+  box(ctx, x - 20, y - 60, 40, 60, 4, '#3a2626'); ell(ctx, x - 80, y - 236, 50, 12, '#f4f4f4', 5);
+  box(ctx, x + 60, y - 310, 14, 80, 4, '#fff', 4); ell(ctx, x + 67, y - 318, 8, 13, '#ffb84a', 0);
+}
+
+// ---------- Wohnzimmer mit TV ----------
+export function livingRoom(ctx, dark = false) {
+  room(ctx, dark ? '#3a3260' : '#f2c6a0', dark ? '#4a3a5a' : '#c98a54', dark ? 'rgba(255,255,255,0.04)' : 'rgba(255,255,255,0.16)');
+  box(ctx, 120, 1030, 70, 120, 10, '#a8603a'); ctx.beginPath(); ctx.moveTo(155, 1030); ctx.quadraticCurveTo(130, 960, 110, 950); ctx.moveTo(155, 1030); ctx.quadraticCurveTo(180, 950, 205, 960); ctx.strokeStyle = '#4a9a4a'; ctx.lineWidth = 12; ctx.stroke();
+  line(ctx, 960, 1100, 960, 1300, OL, 7); poly(ctx, [[920, 1100], [1000, 1100], [985, 1040], [935, 1040]], '#f5c84b');
+}
+export function sofa(ctx, x, y = FLOOR, col = '#8a5ab0') {
+  box(ctx, x - 280, y - 330, 560, 170, 40, col); box(ctx, x - 300, y - 200, 600, 140, 30, col);
+  box(ctx, x - 320, y - 260, 80, 200, 30, col); box(ctx, x + 240, y - 260, 80, 200, 30, col);
+  box(ctx, x - 260, y - 60, 30, 60, 6, '#3a2626'); box(ctx, x + 230, y - 60, 30, 60, 6, '#3a2626');
+}
+export function ukFlag(ctx, x, y, w = 260) {
+  const h = w * 0.6; ctx.save(); rr(ctx, x - w / 2, y - h / 2, w, h, 8); ctx.clip();
+  ctx.fillStyle = '#1f3f8a'; ctx.fillRect(x - w / 2, y - h / 2, w, h);
+  ctx.strokeStyle = '#fff'; ctx.lineWidth = h * 0.2; ctx.beginPath(); ctx.moveTo(x - w / 2, y - h / 2); ctx.lineTo(x + w / 2, y + h / 2); ctx.moveTo(x + w / 2, y - h / 2); ctx.lineTo(x - w / 2, y + h / 2); ctx.stroke();
+  ctx.strokeStyle = '#d8303a'; ctx.lineWidth = h * 0.07; ctx.stroke();
+  ctx.fillStyle = '#fff'; ctx.fillRect(x - w / 2, y - h * 0.17, w, h * 0.34); ctx.fillRect(x - w * 0.1, y - h / 2, w * 0.2, h);
+  ctx.fillStyle = '#d8303a'; ctx.fillRect(x - w / 2, y - h * 0.1, w, h * 0.2); ctx.fillRect(x - w * 0.06, y - h / 2, w * 0.12, h);
+  ctx.restore(); box(ctx, x - w / 2, y - h / 2, w, h, 8, null);
+}
