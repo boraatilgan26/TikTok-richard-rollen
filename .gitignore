@@ -1,0 +1,4 @@
+node_modules/
+videos/*/stills/
+videos/*/*.mp4
+videos/*/audio/*.wav

@@ -1,0 +1,7 @@
+{
+  "name": "tiktok-richard-rollen",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Richard-Rollen: TikTok-Serie im Flat-Chibi-Stil",
+  "dependencies": { "@fontsource/nunito": "^5.0.0" }
+}

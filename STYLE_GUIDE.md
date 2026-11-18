@@ -43,12 +43,18 @@ Jede Szene = ein Ort, ein Gag, Muster **Setup → Reaktion der Familie → Richa
 - Figuren hüpfen leicht (squash & stretch) beim Sprechen; Pop-ups mit Scale-Bounce.
 
 ## Voice (ElevenLabs)
-- Stimme: **Tilmann Roth – Clear News Voice** (`A4sNSe9rxi7b8dct5Llg`), neutral, trocken, klar.
-  Alternative: Daniel – Podcast Host (`gcLIEwSq4uMjxUh2VRdv`).
-- **Credits sparen:** Skript vorher final abstimmen, dann EIN Durchgang (`generations_count: 1`),
-  komplettes Skript in einem Call. Kein Retry-Spam.
+- Stimme: **Rob – Warm Bass German Narrator** (`5euSC8RarC3AHrZ242sr`), Modell `eleven_v4` – dieselbe Stimme wie
+  auf dem Haupt-Account (Wiedererkennung). Tempo 1.2 via `engine/prep_audio.py`.
+- **Credits sparen:** immer nur EIN Take (`generations_count: 1`), komplettes Skript in einem Call.
+- Zahlen im Skript ausschreiben, in Untertiteln per `capMap` als Ziffern.
 
-## Richard-Lore (Serien-Bindung)
-- Basis: Richard ist **Millionär** (Villa, Butler, Anzug). Jede Folge: das Roulette zwingt ihm
-  einen Tag lang eine Rolle auf → maximaler Kontrast (reich → obdachlos, Veganer, Psychopath …).
-- Wiederkehrende Nebenfiguren: Butler, Mama, Papa, Oma (Videocall/Fakten).
+## Richard-Lore (Serien-Bindung zum Haupt-Account „Tricks der Reichen“)
+- Richard ist **Milliardär**, Markenzeichen **goldene Krawatte** (trägt er in JEDER Rolle, auch obdachlos).
+  Im Hook steht „VERMÖGEN 47.683.594 €“ (Zahl aus dem Haupt-Account) und stürzt je nach Rolle ab.
+- Chibi-Look: Seitenscheitel braun, weißes Hemd, dunkle Hose, goldene Krawatte. Rollen ändern Outfit + Shirt-Icon.
+- Nebenfiguren: **Johann** (Butler, grauer Schnurrbart, schwarzer Anzug), **Oma** (Videocall = Fakten),
+  später Mama/Papa möglich.
+- Ende jeder Folge: „Nächstes Mal ist Richard …“ → diese Rolle ist die nächste Folge.
+
+## Episoden
+- r01 – obdachlos (Pfand-Rechnung, Suppenküche, Fakt: Finnland Housing First 2008, −70 % Langzeit-Obdachlose bis 2024) → nächste: Psychopath
