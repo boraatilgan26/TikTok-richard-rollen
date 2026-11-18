@@ -8,6 +8,10 @@ Täglich ein 9:16-Video (~60 s) im Flat-Chibi-Stil: „Heute ist Richard [Rolle]
 - Die am Ende angekündigte Rolle ist die nächste Folge.
 - Fakten im Oma-Videocall müssen stimmen (vorher recherchieren).
 
+## Zeitplan
+- Zwei geplante Aufgaben pro Tag (deutsche Zeit): Start 12:35 → Video bis 13 Uhr, Start 16:35 → Video bis 17 Uhr.
+  Jede Folge = die zuletzt angekündigte Rolle; beide Folgen eines Tages sind also verschiedene Rollen.
+
 ## Ablauf (videos/rXX)
 1. Skript (~140–150 Wörter) nach STYLE_GUIDE; Zahlen ausgeschrieben.
 2. `creative_create_flow` → `creative_generate_speech` (1 Take) → MP3 nach `videos/rXX/audio/voice_raw.mp3`.
