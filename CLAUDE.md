@@ -28,3 +28,5 @@ Täglich ein 9:16-Video (~60 s) im Flat-Chibi-Stil: „Heute ist Richard [Rolle]
 
 ## Folgen
 - r01 – obdachlos → nächste: Psychopath
+- r02 – Psychopath: VORBEREITET (videos/r02/script.txt + video.js fertig, Wortanker per Text). Nur noch: 1 Take aus script.txt,
+  Transkription, prep_audio, Stills, make.sh. ElevenLabs-Flow `nNWPEysXljbrhg5tH8p7` (leer; vorher prüfen). Danach → nächste: Veganer
