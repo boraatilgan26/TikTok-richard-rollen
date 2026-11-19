@@ -234,3 +234,40 @@ export function ukFlag(ctx, x, y, w = 260) {
   ctx.fillStyle = '#d8303a'; ctx.fillRect(x - w / 2, y - h * 0.1, w, h * 0.2); ctx.fillRect(x - w * 0.06, y - h / 2, w * 0.12, h);
   ctx.restore(); box(ctx, x - w / 2, y - h / 2, w, h, 8, null);
 }
+
+// ---------- Garage ----------
+export function garage(ctx) {
+  ctx.fillStyle = '#c8ccd4'; ctx.fillRect(0, 0, W, FLOOR);
+  ctx.fillStyle = 'rgba(0,0,0,0.06)'; for (let y = 0; y < FLOOR; y += 60) ctx.fillRect(0, y, W, 4);
+  box(ctx, 140, 300, 800, 120, 10, '#3a3f4a'); text(ctx, 'GARAGE', W / 2, 362, { size: 64, color: C.gold, spacing: 8 });
+  for (let i = 0; i < 3; i++) { line(ctx, 260 + i * 280, 0, 260 + i * 280, 120, OL, 5); box(ctx, 200 + i * 280, 120, 120, 26, 10, '#fff8c0'); }
+  ctx.fillStyle = '#8a8e98'; ctx.fillRect(0, FLOOR, W, H); ctx.fillStyle = 'rgba(255,255,255,0.12)'; for (let x = 0; x < W; x += 160) ctx.fillRect(x, FLOOR, 8, H);
+}
+export function sportsCar(ctx, x, y = FLOOR, col = '#d8303a') {
+  ctx.save(); ctx.translate(x, y);
+  poly(ctx, [[-300, -70], [-270, -150], [-120, -170], [-40, -250], [120, -250], [210, -160], [300, -140], [310, -70]], col);
+  poly(ctx, [[-20, -235], [110, -235], [180, -165], [-80, -165]], '#bfe0f2', 5);
+  box(ctx, -40, -160, 120, 60, 10, '#8a5a3a', 4); // Ledersitz
+  circ(ctx, -180, -60, 58, '#2b2b2b'); circ(ctx, -180, -60, 24, '#c0c0c8'); circ(ctx, 190, -60, 58, '#2b2b2b'); circ(ctx, 190, -60, 24, '#c0c0c8');
+  ctx.restore();
+}
+export function bambooBike(ctx, x, y = FLOOR) {
+  ctx.save(); ctx.translate(x, y);
+  for (const bx of [-110, 110]) { ctx.beginPath(); ctx.arc(bx, -80, 75, 0, Math.PI * 2); ctx.lineWidth = 12; ctx.strokeStyle = OL; ctx.stroke(); }
+  for (const [a, b, c, d] of [[-110, -80, -10, -190], [-10, -190, 110, -80], [-110, -80, 30, -80], [30, -80, -10, -190], [-10, -190, 80, -190], [80, -190, 110, -80]]) line(ctx, a, b, c, d, '#c8a24a', 14);
+  ctx.restore();
+}
+// ---------- Küche nachts ----------
+export function kitchenNight(ctx) {
+  room(ctx, '#3a3260', '#4a3a5a', 'rgba(255,255,255,0.04)');
+  box(ctx, 80, 900, 420, 400, 10, '#5a4a7a'); box(ctx, 60, 870, 460, 40, 10, '#7a6a9a');
+  box(ctx, 140, 500, 260, 220, 10, '#2a2450'); ctx.beginPath(); ctx.arc(330, 560, 34, 0, Math.PI * 2); ctx.fillStyle = '#f6e7a8'; ctx.fill();
+}
+export function fridge(ctx, x, y = FLOOR, open = 0) {
+  if (open > 0) { ctx.save(); const g = ctx.createRadialGradient(x, y - 400, 20, x, y - 400, 500); g.addColorStop(0, 'rgba(220,240,255,0.6)'); g.addColorStop(1, 'rgba(220,240,255,0)'); ctx.fillStyle = g; ctx.fillRect(x - 520, y - 950, 1040, 950); ctx.restore(); }
+  box(ctx, x - 150, y - 720, 300, 720, 22, '#eef2f6');
+  if (open > 0) { box(ctx, x - 130, y - 700, 260, 680, 12, '#dff0ff', 5); for (let i = 1; i < 4; i++) line(ctx, x - 130, y - 700 + i * 170, x + 130, y - 700 + i * 170, '#9ab0c0', 6);
+    emoji(ctx, '🥬', x - 60, y - 580, 70); emoji(ctx, '🥕', x + 50, y - 580, 70); emoji(ctx, '🍅', x - 40, y - 410, 70); emoji(ctx, '🧃', x + 60, y - 410, 70);
+    box(ctx, x + 150, y - 720, 60 * open, 720, 10, '#d8dde4'); }
+  else { line(ctx, x - 150, y - 460, x + 150, y - 460, OL, 6); box(ctx, x + 100, y - 640, 16, 120, 8, '#9aa0a8', 4); box(ctx, x + 100, y - 400, 16, 120, 8, '#9aa0a8', 4); }
+}
