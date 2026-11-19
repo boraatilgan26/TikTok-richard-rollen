@@ -4,6 +4,8 @@ Täglich ein 9:16-Video (~60 s) im Flat-Chibi-Stil: „Heute ist Richard [Rolle]
 `STYLE_GUIDE.md` – vor jeder Folge lesen. Richard ist derselbe Milliardär wie im Haupt-Account (Repo `tiktok-videos`).
 
 ## Feste Regeln
+- ElevenLabs-Timeout ≠ nicht erzeugt: Aufrufe können verspätet doch durchlaufen. Nach einem Timeout NIE sofort wiederholen,
+  sondern per `creative_get_flow` prüfen (auch Minuten später) und vorhandene Takes nutzen.
 - ElevenLabs: immer nur EINEN Take (`generations_count: 1`). Stimme Rob `5euSC8RarC3AHrZ242sr`, `eleven_v4`.
 - Die am Ende angekündigte Rolle ist die nächste Folge.
 - Fakten im Oma-Videocall müssen stimmen (vorher recherchieren).
@@ -28,5 +30,4 @@ Täglich ein 9:16-Video (~60 s) im Flat-Chibi-Stil: „Heute ist Richard [Rolle]
 
 ## Folgen
 - r01 – obdachlos → nächste: Psychopath
-- r02 – Psychopath: VORBEREITET (videos/r02/script.txt + video.js fertig, Wortanker per Text). Nur noch: 1 Take aus script.txt,
-  Transkription, prep_audio, Stills, make.sh. ElevenLabs-Flow `nNWPEysXljbrhg5tH8p7` (leer; vorher prüfen). Danach → nächste: Veganer
+- r02 – Psychopath (Fakt: Kevin Dutton 2011, Platz 1 CEO) → nächste: Veganer

@@ -58,3 +58,4 @@ Jede Szene = ein Ort, ein Gag, Muster **Setup → Reaktion der Familie → Richa
 
 ## Episoden
 - r01 – obdachlos (Pfand-Rechnung, Suppenküche, Fakt: Finnland Housing First 2008, −70 % Langzeit-Obdachlose bis 2024) → nächste: Psychopath
+- r02 – Psychopath (Frühstück: Johann gefeuert, Aktie −20 % + Apfel, Kellner weint, Fakt: Dutton 2011 Platz 1 CEO, Horrorfilm) → nächste: Veganer

@@ -179,7 +179,9 @@ function nightScene(ctx, lt, t, clock = true) {
   const rehired = t > w(A.stellt);
   // Johann hinter dem Sofa (nur Kopf sichtbar, zittert)
   const shake = hide && !rehired ? Math.sin(t * 40) * 4 : 0;
-  person(ctx, 720 + shake, F + 20 + (hide && !rehired ? 150 : 0), { ...BUTLER, s: 1.05, t, flip: true, expr: rehired ? 'happy' : hide ? 'shock' : 'neutral' });
+  ctx.save(); ctx.beginPath(); ctx.rect(0, 0, W, F - 40); ctx.clip();
+  person(ctx, 720 + shake, F + 20 + (hide && !rehired ? 110 : 0), { ...BUTLER, s: 1.05, t, flip: true, expr: rehired ? 'happy' : hide ? 'shock' : 'neutral' });
+  ctx.restore();
   B.sofa(ctx, W / 2 - 40, F + 30, '#8a5ab0');
   person(ctx, 330, F - 60, { ...PSYCHO, s: 1.0, t, expr: t > w(A.gaehnt) && t < w(A.stellt) ? 'sleep' : 'smile', prop: t > w(A.popcorn) - 0.2 ? popcorn : null });
   if (t > w(A.gaehnt) && t < w(A.stellt)) text(ctx, 'gähn…', 330, 860, { size: 50, color: '#fff', stroke: 8 });
