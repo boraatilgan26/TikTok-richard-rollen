@@ -26,7 +26,7 @@ Täglich ein 9:16-Video (~60 s) im Flat-Chibi-Stil: „Heute ist Richard [Rolle]
 - `engine/chibi.js`: Figuren (`person`, Presets RICHARD, RICHARD_HOMELESS, BUTLER), UI (clockBadge, bubble, iconCard, stamp, pill,
   questionCard, commentSign, rouletteBar/roulettePos, ROLES), Untertitel.
 - `engine/bg.js`: Hintergründe (villa, sunset, park, station, soupKitchen, streetDay+screen, night, room, diningRoom, boardroom,
-  restaurant, livingRoom+sofa, garage+sportsCar/bambooBike, kitchenNight+fridge) + Requisiten, Flaggen (finland, uk).
+  restaurant, livingRoom+sofa, garage+sportsCar/bambooBike, kitchenNight+fridge, monastery+candle/gong) + Requisiten, Flaggen (finland, uk).
 - Vorlage für neue Folgen: `videos/r04/video.js` (Wortanker per Text mit `wi()`). Achtung: `wi()` matcht Wortanfänge –
   bei Komposita (z. B. „Gratis-Tee“) den ersten Wortteil als Anker nehmen, sonst springen alle späteren Anker.
 - `engine/timeline.js`: Wörter → Untertitel-Chunks (Satzweise), Szenen, SFX. `engine/audio.py`: Musik + SFX-Mix.
@@ -36,3 +36,4 @@ Täglich ein 9:16-Video (~60 s) im Flat-Chibi-Stil: „Heute ist Richard [Rolle]
 - r02 – Psychopath (Fakt: Kevin Dutton 2011, Platz 1 CEO) → nächste: Veganer
 - r03 – Veganer (Fakt: Donald Watson 1944, VEG+AN) → nächste: Influencer
 - r04 – Influencer (Fakt: „Me at the zoo“, Jawed Karim 2005, 19 s) → nächste: Mönch
+- r05 – Mönch (Fakt: Kloster Weltenburg seit 1050, gilt als älteste Klosterbrauerei) → nächste: Gangster

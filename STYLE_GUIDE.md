@@ -61,3 +61,4 @@ Jede Szene = ein Ort, ein Gag, Muster **Setup → Reaktion der Familie → Richa
 - r02 – Psychopath (Frühstück: Johann gefeuert, Aktie −20 % + Apfel, Kellner weint, Fakt: Dutton 2011 Platz 1 CEO, Horrorfilm) → nächste: Veganer
 - r03 – Veganer (Speck-Frühstück, Ferrari mit Ledersitzen → Bambus-Fahrrad, Steakhaus-Salat, Fakt: Donald Watson 1944 VEG+AN, Kühlschrank-Gurke) → nächste: Influencer
 - r04 – Influencer (47 Versuche Frühstück, Privatjet-Unboxing 12 Likes, Gratis-Tee, Fakt: „Me at the zoo“ 2005, Johanns Rührei 2 Mio.) → nächste: Mönch
+- r05 – Mönch (Gong um 5 Uhr, Schweige-Nicken = Kaufen +30 %, Kaviar per Zeichensprache, Fakt: Weltenburg 1050 Klosterbier, Meditation vs. Johanns Handy) → nächste: Gangster

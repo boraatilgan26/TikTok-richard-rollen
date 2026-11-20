@@ -271,3 +271,24 @@ export function fridge(ctx, x, y = FLOOR, open = 0) {
     box(ctx, x + 150, y - 720, 60 * open, 720, 10, '#d8dde4'); }
   else { line(ctx, x - 150, y - 460, x + 150, y - 460, OL, 6); box(ctx, x + 100, y - 640, 16, 120, 8, '#9aa0a8', 4); box(ctx, x + 100, y - 400, 16, 120, 8, '#9aa0a8', 4); }
 }
+
+// ---------- Kloster ----------
+export function monastery(ctx, dark = false) {
+  ctx.fillStyle = dark ? '#3a3448' : '#d8c8a8'; ctx.fillRect(0, 0, W, FLOOR);
+  ctx.strokeStyle = dark ? 'rgba(0,0,0,0.25)' : 'rgba(120,90,50,0.25)'; ctx.lineWidth = 4;
+  for (let y = 0; y < FLOOR; y += 70) { const off = (y / 70) % 2 ? 60 : 0; ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke(); for (let x = off; x < W; x += 120) { ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(x, y + 70); ctx.stroke(); } }
+  for (const x of [200, 540, 880]) { ctx.beginPath(); ctx.moveTo(x - 110, 900); ctx.lineTo(x - 110, 560); ctx.arc(x, 560, 110, Math.PI, 0); ctx.lineTo(x + 110, 900); ctx.closePath(); fillStroke(ctx, dark ? '#1e1a30' : '#8ab0d0'); }
+  ctx.fillStyle = dark ? '#2e2a3a' : '#a89070'; ctx.fillRect(0, FLOOR, W, H - FLOOR);
+  ctx.fillStyle = 'rgba(0,0,0,0.12)'; for (let x = 0; x < W; x += 140) ctx.fillRect(x, FLOOR, 6, H);
+}
+export function candle(ctx, x, y, t = 0) {
+  box(ctx, x - 14, y - 70, 28, 70, 6, '#fff8e0', 4);
+  const f = 1 + Math.sin(t * 13 + x) * 0.12;
+  ctx.save(); ctx.translate(x, y - 84); ctx.scale(1, f); ell(ctx, 0, 0, 9, 16, '#ffb84a', 0); ctx.restore();
+  ctx.save(); const g = ctx.createRadialGradient(x, y - 84, 2, x, y - 84, 90); g.addColorStop(0, 'rgba(255,200,100,0.35)'); g.addColorStop(1, 'rgba(255,200,100,0)'); ctx.fillStyle = g; ctx.fillRect(x - 90, y - 174, 180, 180); ctx.restore();
+}
+export function gong(ctx, x, y = FLOOR, hit = 0) {
+  box(ctx, x - 130, y - 520, 20, 520, 6, '#6a3a1a'); box(ctx, x + 110, y - 520, 20, 520, 6, '#6a3a1a'); box(ctx, x - 150, y - 540, 300, 30, 8, '#6a3a1a');
+  const sh = Math.sin(hit * 40) * 6 * Math.max(0, 1 - hit);
+  circ(ctx, x + sh, y - 330, 100, C.gold); circ(ctx, x + sh, y - 330, 60, null, 5);
+}
