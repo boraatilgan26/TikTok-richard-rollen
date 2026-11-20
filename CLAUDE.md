@@ -27,10 +27,12 @@ Täglich ein 9:16-Video (~60 s) im Flat-Chibi-Stil: „Heute ist Richard [Rolle]
   questionCard, commentSign, rouletteBar/roulettePos, ROLES), Untertitel.
 - `engine/bg.js`: Hintergründe (villa, sunset, park, station, soupKitchen, streetDay+screen, night, room, diningRoom, boardroom,
   restaurant, livingRoom+sofa, garage+sportsCar/bambooBike, kitchenNight+fridge) + Requisiten, Flaggen (finland, uk).
-- Vorlage für neue Folgen: `videos/r03/video.js` (Wortanker per Text mit `wi()`, robust gegen Indexfehler).
+- Vorlage für neue Folgen: `videos/r04/video.js` (Wortanker per Text mit `wi()`). Achtung: `wi()` matcht Wortanfänge –
+  bei Komposita (z. B. „Gratis-Tee“) den ersten Wortteil als Anker nehmen, sonst springen alle späteren Anker.
 - `engine/timeline.js`: Wörter → Untertitel-Chunks (Satzweise), Szenen, SFX. `engine/audio.py`: Musik + SFX-Mix.
 
 ## Folgen
 - r01 – obdachlos → nächste: Psychopath
 - r02 – Psychopath (Fakt: Kevin Dutton 2011, Platz 1 CEO) → nächste: Veganer
 - r03 – Veganer (Fakt: Donald Watson 1944, VEG+AN) → nächste: Influencer
+- r04 – Influencer (Fakt: „Me at the zoo“, Jawed Karim 2005, 19 s) → nächste: Mönch
