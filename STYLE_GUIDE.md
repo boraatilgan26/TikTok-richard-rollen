@@ -63,3 +63,4 @@ Jede Szene = ein Ort, ein Gag, Muster **Setup → Reaktion der Familie → Richa
 - r04 – Influencer (47 Versuche Frühstück, Privatjet-Unboxing 12 Likes, Gratis-Tee, Fakt: „Me at the zoo“ 2005, Johanns Rührei 2 Mio.) → nächste: Mönch
 - r05 – Mönch (Gong um 5 Uhr, Schweige-Nicken = Kaufen +30 %, Kaviar per Zeichensprache, Fakt: Weltenburg 1050 Klosterbier, Meditation vs. Johanns Handy) → nächste: Gangster
 - r06 – Gangster (Sonnenbrille im Dunkeln, Bäckerei für 2 Mio. gekauft, Golfwagen 12 km/h, Fakt: Capone 1931 Steuerhinterziehung, Starrduell mit Johann) → nächste: Hausmeister
+- r07 – Hausmeister (Heizung → Licht kaputt, 2.000 m² Marmor in 3 h = 1 Zimmer, Nachbar bekommt Haus, Fakt: Booth 1901 Pferde-Staubsauger, Klo verstopft) → nächste: Astronaut

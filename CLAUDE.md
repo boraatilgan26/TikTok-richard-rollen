@@ -29,6 +29,7 @@ Täglich ein 9:16-Video (~60 s) im Flat-Chibi-Stil: „Heute ist Richard [Rolle]
   restaurant, livingRoom+sofa, garage+sportsCar/bambooBike, kitchenNight+fridge, monastery+candle/gong) + Requisiten, Flaggen (finland, uk).
 - Vorlage für neue Folgen: `videos/r04/video.js` (Wortanker per Text mit `wi()`). Achtung: `wi()` matcht Wortanfänge –
   bei Komposita (z. B. „Gratis-Tee“) den ersten Wortteil als Anker nehmen, sonst springen alle späteren Anker.
+  `wi(word, after)` sucht AB Index `after` inklusive – bei gleichem Präfix (klopft/Klo) `after + 1` übergeben.
 - `engine/timeline.js`: Wörter → Untertitel-Chunks (Satzweise), Szenen, SFX. `engine/audio.py`: Musik + SFX-Mix.
 
 ## Folgen
@@ -38,3 +39,4 @@ Täglich ein 9:16-Video (~60 s) im Flat-Chibi-Stil: „Heute ist Richard [Rolle]
 - r04 – Influencer (Fakt: „Me at the zoo“, Jawed Karim 2005, 19 s) → nächste: Mönch
 - r05 – Mönch (Fakt: Kloster Weltenburg seit 1050, gilt als älteste Klosterbrauerei) → nächste: Gangster
 - r06 – Gangster (Fakt: Al Capone 1931 wegen Steuerhinterziehung, 11 Jahre) → nächste: Hausmeister
+- r07 – Hausmeister (Fakt: Hubert Booth 1901, Staubsauger von Pferden gezogen) → nächste: Astronaut
