@@ -37,3 +37,4 @@ Täglich ein 9:16-Video (~60 s) im Flat-Chibi-Stil: „Heute ist Richard [Rolle]
 - r03 – Veganer (Fakt: Donald Watson 1944, VEG+AN) → nächste: Influencer
 - r04 – Influencer (Fakt: „Me at the zoo“, Jawed Karim 2005, 19 s) → nächste: Mönch
 - r05 – Mönch (Fakt: Kloster Weltenburg seit 1050, gilt als älteste Klosterbrauerei) → nächste: Gangster
+- r06 – Gangster (Fakt: Al Capone 1931 wegen Steuerhinterziehung, 11 Jahre) → nächste: Hausmeister

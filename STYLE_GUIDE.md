@@ -62,3 +62,4 @@ Jede Szene = ein Ort, ein Gag, Muster **Setup → Reaktion der Familie → Richa
 - r03 – Veganer (Speck-Frühstück, Ferrari mit Ledersitzen → Bambus-Fahrrad, Steakhaus-Salat, Fakt: Donald Watson 1944 VEG+AN, Kühlschrank-Gurke) → nächste: Influencer
 - r04 – Influencer (47 Versuche Frühstück, Privatjet-Unboxing 12 Likes, Gratis-Tee, Fakt: „Me at the zoo“ 2005, Johanns Rührei 2 Mio.) → nächste: Mönch
 - r05 – Mönch (Gong um 5 Uhr, Schweige-Nicken = Kaufen +30 %, Kaviar per Zeichensprache, Fakt: Weltenburg 1050 Klosterbier, Meditation vs. Johanns Handy) → nächste: Gangster
+- r06 – Gangster (Sonnenbrille im Dunkeln, Bäckerei für 2 Mio. gekauft, Golfwagen 12 km/h, Fakt: Capone 1931 Steuerhinterziehung, Starrduell mit Johann) → nächste: Hausmeister
