@@ -64,3 +64,4 @@ Jede Szene = ein Ort, ein Gag, Muster **Setup → Reaktion der Familie → Richa
 - r05 – Mönch (Gong um 5 Uhr, Schweige-Nicken = Kaufen +30 %, Kaviar per Zeichensprache, Fakt: Weltenburg 1050 Klosterbier, Meditation vs. Johanns Handy) → nächste: Gangster
 - r06 – Gangster (Sonnenbrille im Dunkeln, Bäckerei für 2 Mio. gekauft, Golfwagen 12 km/h, Fakt: Capone 1931 Steuerhinterziehung, Starrduell mit Johann) → nächste: Hausmeister
 - r07 – Hausmeister (Heizung → Licht kaputt, 2.000 m² Marmor in 3 h = 1 Zimmer, Nachbar bekommt Haus, Fakt: Booth 1901 Pferde-Staubsauger, Klo verstopft) → nächste: Astronaut
+- r08 – Astronaut (Kaviar schwebt 4/200, Villa vom All zu klein, Lasagne aus der Tube, Fakt: Gagarin 1961 108 Min., Johann im Raumanzug am Fenster) → nächste: Lehrer

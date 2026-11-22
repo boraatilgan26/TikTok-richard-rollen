@@ -292,3 +292,22 @@ export function gong(ctx, x, y = FLOOR, hit = 0) {
   const sh = Math.sin(hit * 40) * 6 * Math.max(0, 1 - hit);
   circ(ctx, x + sh, y - 330, 100, C.gold); circ(ctx, x + sh, y - 330, 60, null, 5);
 }
+
+// ---------- Weltall ----------
+export function spaceStation(ctx, t = 0) {
+  ctx.fillStyle = '#d8dde6'; ctx.fillRect(0, 0, W, H);
+  for (let x = 0; x < W; x += 180) { box(ctx, x + 10, 0, 160, H, 0, '#cfd5df', 0); line(ctx, x, 0, x, H, '#b8c0cc', 6); }
+  for (const [x, y] of [[270, 560], [810, 560]]) { circ(ctx, x, y, 150, '#9aa4b4'); circ(ctx, x, y, 120, '#0b1030'); for (let i = 0; i < 14; i++) circ(ctx, x - 100 + (i * 53) % 200, y - 90 + (i * 37) % 180, 3, '#fff', 0); }
+  box(ctx, 0, FLOOR, W, H - FLOOR, 0, '#bfc6d2', 0); line(ctx, 0, FLOOR, W, FLOOR, OL, 6);
+  for (let i = 0; i < 6; i++) box(ctx, 60 + i * 170, 900, 110, 40, 8, ['#e8504a', '#5fc47a', '#f5c84b'][i % 3], 4);
+}
+export function space(ctx, t = 0) {
+  ctx.fillStyle = '#070a24'; ctx.fillRect(0, 0, W, H);
+  for (let i = 0; i < 90; i++) { const x = (i * 263) % W, y = (i * 137) % H; circ(ctx, x, y, 2 + (i % 3), 'rgba(255,255,255,' + (0.4 + (i % 5) / 10) + ')', 0); }
+  // Erde unten
+  circ(ctx, W / 2, H + 500, 1100, '#3a8ad8', 0);
+  ctx.save(); ctx.beginPath(); ctx.arc(W / 2, H + 500, 1100, 0, Math.PI * 2); ctx.clip();
+  for (const [x, y, r] of [[200, 1500, 220], [700, 1430, 260], [950, 1700, 180], [420, 1800, 200]]) circ(ctx, x, y, r, '#5fb06a', 0);
+  ctx.restore();
+  ctx.save(); ctx.globalAlpha = 0.25; circ(ctx, W / 2, H + 500, 1130, null, 30); ctx.restore();
+}
