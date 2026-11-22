@@ -26,7 +26,7 @@ Täglich ein 9:16-Video (~60 s) im Flat-Chibi-Stil: „Heute ist Richard [Rolle]
 - `engine/chibi.js`: Figuren (`person`, Presets RICHARD, RICHARD_HOMELESS, BUTLER), UI (clockBadge, bubble, iconCard, stamp, pill,
   questionCard, commentSign, rouletteBar/roulettePos, ROLES), Untertitel.
 - `engine/bg.js`: Hintergründe (villa, sunset, park, station, soupKitchen, streetDay+screen, night, room, diningRoom, boardroom,
-  restaurant, livingRoom+sofa, garage+sportsCar/bambooBike, kitchenNight+fridge, monastery+candle/gong, spaceStation, space) + Requisiten, Flaggen (finland, uk).
+  restaurant, livingRoom+sofa, garage+sportsCar/bambooBike, kitchenNight+fridge, monastery+candle/gong, spaceStation, space, classroom) + Requisiten, Flaggen (finland, uk).
 - Vorlage für neue Folgen: `videos/r04/video.js` (Wortanker per Text mit `wi()`). Achtung: `wi()` matcht Wortanfänge –
   bei Komposita (z. B. „Gratis-Tee“) den ersten Wortteil als Anker nehmen, sonst springen alle späteren Anker.
   `wi(word, after)` sucht AB Index `after` inklusive – bei gleichem Präfix (klopft/Klo) `after + 1` übergeben.
@@ -41,3 +41,4 @@ Täglich ein 9:16-Video (~60 s) im Flat-Chibi-Stil: „Heute ist Richard [Rolle]
 - r06 – Gangster (Fakt: Al Capone 1931 wegen Steuerhinterziehung, 11 Jahre) → nächste: Hausmeister
 - r07 – Hausmeister (Fakt: Hubert Booth 1901, Staubsauger von Pferden gezogen) → nächste: Astronaut
 - r08 – Astronaut (Fakt: Juri Gagarin 1961, Flug 108 Minuten) → nächste: Lehrer
+- r09 – Lehrer (Fakt: Schulpflicht Preußen 1717, Friedrich Wilhelm I.) → nächste: Prepper

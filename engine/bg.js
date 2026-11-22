@@ -311,3 +311,11 @@ export function space(ctx, t = 0) {
   ctx.restore();
   ctx.save(); ctx.globalAlpha = 0.25; circ(ctx, W / 2, H + 500, 1130, null, 30); ctx.restore();
 }
+
+// ---------- Klassenzimmer ----------
+export function classroom(ctx) {
+  room(ctx, '#f6e2b8', '#b88050');
+  box(ctx, 140, 330, 800, 420, 14, '#7a4a2a'); box(ctx, 165, 355, 750, 370, 8, '#2f5a46');
+  box(ctx, 300, 735, 480, 18, 6, '#c8a070', 4);
+  circ(ctx, 980, 420, 50, '#fff'); line(ctx, 980, 420, 980, 390, OL, 6); line(ctx, 980, 420, 1000, 420, OL, 6);
+}
