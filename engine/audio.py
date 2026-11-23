@@ -109,6 +109,20 @@ def sfx(kind):
     if kind == 'busy':  # Besetztzeichen 425 Hz, 0,48 s an/aus
         n = int(1.9 * SR); tt = np.arange(n) / SR
         return np.sin(2 * np.pi * 425 * tt) * ((tt % 0.96) < 0.48) * 0.16
+    if kind == 'buzz':  # Haarschneidemaschine, 1,4 s
+        n = int(1.4 * SR); tt = np.arange(n) / SR
+        x = np.sign(np.sin(2 * np.pi * 120 * tt)) * 0.5 + np.sin(2 * np.pi * 240 * tt) * 0.4 + bp(rng.standard_normal(n), 1500, 5000) * 0.25
+        e = np.minimum(1, np.minimum(tt, tt[-1] - tt) / 0.05) * (0.8 + 0.2 * np.sin(2 * np.pi * 3 * tt))
+        return lp(x, 3500) * e * 0.18
+    if kind == 'snip':  # Schere
+        out = np.zeros(int(0.3 * SR))
+        for s0 in (0, 0.13):
+            m = int(0.05 * SR); tt = np.arange(m) / SR
+            out[int(s0 * SR):int(s0 * SR) + m] += hp(rng.standard_normal(m), 4000) * np.exp(-tt / 0.008) * 0.6
+        return out
+    if kind == 'spray':
+        n = int(0.6 * SR); tt = np.arange(n) / SR
+        return hp(rng.standard_normal(n), 3000) * np.minimum(1, tt / 0.03) * np.exp(-tt / 0.3) * 0.18
     return np.zeros(1)
 
 fx = np.zeros(N)
