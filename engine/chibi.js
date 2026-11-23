@@ -91,6 +91,7 @@ export function person(ctx, x, y, o = {}) {
   circ(ctx, -104, 12, 22, C.skin); circ(ctx, 104, 12, 22, C.skin);
   // Haare hinten
   if (o.hair === 'mom') { ell(ctx, 0, 10, 122, 118, o.hairColor || '#6b4026'); }
+  if (o.hair === 'long') { box(ctx, -128, -70, 256, 178, 70, o.hairColor || '#6b4026'); }
   if (o.hair === 'grandma') { circ(ctx, 0, -112, 42, '#e6e6ea'); }
   ell(ctx, 0, 0, 108, 100, C.skin);
   // Haare vorne
@@ -165,6 +166,9 @@ function drawHair(ctx, o) {
       break;
     case 'grandma':
       ctx.beginPath(); ctx.moveTo(-112, 10); ctx.bezierCurveTo(-120, -100, 120, -100, 112, 10); ctx.bezierCurveTo(90, -50, -90, -50, -112, 10); ctx.closePath(); fillStroke(ctx, '#e6e6ea');
+      break;
+    case 'long': // lange Haare mit Pony
+      ctx.beginPath(); ctx.moveTo(-114, 40); ctx.bezierCurveTo(-128, -110, 128, -110, 114, 40); ctx.bezierCurveTo(104, -30, 60, -52, 20, -46); ctx.bezierCurveTo(-20, -40, -60, -56, -90, -30); ctx.bezierCurveTo(-104, -10, -110, 10, -114, 40); ctx.closePath(); fillStroke(ctx, col);
       break;
     case 'bald': break;
     default:

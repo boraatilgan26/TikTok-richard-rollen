@@ -103,6 +103,12 @@ def sfx(kind):
             s = int(k * 0.07 * SR); tt = np.arange(n - s) / SR
             out[s:] += np.sin(2 * np.pi * note(m) * tt) * np.exp(-tt / 0.35) * 0.08
         return out
+    if kind == 'tuut':  # deutsches Freizeichen 425 Hz, 1 s
+        n = int(1.0 * SR); tt = np.arange(n) / SR
+        return np.sin(2 * np.pi * 425 * tt) * np.minimum(1, np.minimum(tt, tt[-1] - tt) / 0.02) * 0.16
+    if kind == 'busy':  # Besetztzeichen 425 Hz, 0,48 s an/aus
+        n = int(1.9 * SR); tt = np.arange(n) / SR
+        return np.sin(2 * np.pi * 425 * tt) * ((tt % 0.96) < 0.48) * 0.16
     return np.zeros(1)
 
 fx = np.zeros(N)
