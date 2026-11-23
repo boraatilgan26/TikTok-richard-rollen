@@ -43,3 +43,4 @@ Täglich ein 9:16-Video (~60 s) im Flat-Chibi-Stil: „Heute ist Richard [Rolle]
 - r08 – Astronaut (Fakt: Juri Gagarin 1961, Flug 108 Minuten) → nächste: Lehrer
 - r09 – Lehrer (Fakt: Schulpflicht Preußen 1717, Friedrich Wilhelm I.) → nächste: Prepper
 - r10 – Prepper (Fakt: Regierungsbunker Ahrtal ab 1960, >17 km, 3.000 Menschen, heute Museum) → nächste: Kommunist
+- r11 – Kommunist (Fakt: Das Kapital 1867, Marx von Fabrikantensohn Engels finanziert) → nächste: Minimalist

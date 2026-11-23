@@ -67,3 +67,4 @@ Jede Szene = ein Ort, ein Gag, Muster **Setup → Reaktion der Familie → Richa
 - r08 – Astronaut (Kaviar schwebt 4/200, Villa vom All zu klein, Lasagne aus der Tube, Fakt: Gagarin 1961 108 Min., Johann im Raumanzug am Fenster) → nächste: Lehrer
 - r09 – Lehrer (Schule gekauft, Depot-Prozentrechnung vs. Taschengeld, Rolex gegen Pausenbrot, Fakt: Schulpflicht 1717, Johann gibt allen eine 1) → nächste: Prepper
 - r10 – Prepper (2.000 Dosen + 1 Kaviar, Luxusbunker, Johann in die Hundehütte, Probealarm – Johann schon drin, Fakt: Regierungsbunker Ahrtal, kein Dosenöffner) → nächste: Kommunist
+- r11 – Kommunist (300 Nachbarn in der Villa, Firma an Mitarbeiter, 1 Hummer ÷ 40, Fakt: Kapital 1867 / Engels-Sponsoring, Bett voll → Sofa) → nächste: Minimalist
