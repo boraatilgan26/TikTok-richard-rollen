@@ -66,3 +66,4 @@ Jede Szene = ein Ort, ein Gag, Muster **Setup → Reaktion der Familie → Richa
 - r07 – Hausmeister (Heizung → Licht kaputt, 2.000 m² Marmor in 3 h = 1 Zimmer, Nachbar bekommt Haus, Fakt: Booth 1901 Pferde-Staubsauger, Klo verstopft) → nächste: Astronaut
 - r08 – Astronaut (Kaviar schwebt 4/200, Villa vom All zu klein, Lasagne aus der Tube, Fakt: Gagarin 1961 108 Min., Johann im Raumanzug am Fenster) → nächste: Lehrer
 - r09 – Lehrer (Schule gekauft, Depot-Prozentrechnung vs. Taschengeld, Rolex gegen Pausenbrot, Fakt: Schulpflicht 1717, Johann gibt allen eine 1) → nächste: Prepper
+- r10 – Prepper (2.000 Dosen + 1 Kaviar, Luxusbunker, Johann in die Hundehütte, Probealarm – Johann schon drin, Fakt: Regierungsbunker Ahrtal, kein Dosenöffner) → nächste: Kommunist

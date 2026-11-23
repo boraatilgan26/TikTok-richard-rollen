@@ -319,3 +319,17 @@ export function classroom(ctx) {
   box(ctx, 300, 735, 480, 18, 6, '#c8a070', 4);
   circ(ctx, 980, 420, 50, '#fff'); line(ctx, 980, 420, 980, 390, OL, 6); line(ctx, 980, 420, 1000, 420, OL, 6);
 }
+
+// ---------- Bunker ----------
+export function bunker(ctx, dark = false) {
+  ctx.fillStyle = dark ? '#2a2e34' : '#7a8088'; ctx.fillRect(0, 0, W, H);
+  for (let y = 0; y < FLOOR; y += 120) for (let x = (y / 120) % 2 ? 0 : -110; x < W; x += 220) box(ctx, x, y, 220, 120, 4, dark ? '#343a42' : '#8a9098', 4);
+  ctx.fillStyle = dark ? '#1e2228' : '#5a6068'; ctx.fillRect(0, FLOOR, W, H - FLOOR); line(ctx, 0, FLOOR, W, FLOOR, OL, 6);
+  // Tür mit Rad
+  circ(ctx, 900, 760, 170, '#9aa0a8'); circ(ctx, 900, 760, 140, '#b0b6be');
+  for (let i = 0; i < 4; i++) { const a = i * Math.PI / 4; line(ctx, 900 + Math.cos(a) * 70, 760 + Math.sin(a) * 70, 900 - Math.cos(a) * 70, 760 - Math.sin(a) * 70, '#c84a3e', 12); }
+  circ(ctx, 900, 760, 70, null, 12); circ(ctx, 900, 760, 20, '#c84a3e');
+}
+export function cans(ctx, x, y, n = 12, s = 1) {
+  for (let i = 0; i < n; i++) { const cx = x + (i % 6) * 64 * s, cy = y - Math.floor(i / 6) * 92 * s; box(ctx, cx, cy - 86 * s, 56 * s, 86 * s, 8, '#c8ccd4', 4); box(ctx, cx, cy - 64 * s, 56 * s, 40 * s, 0, '#e8504a', 0); }
+}
