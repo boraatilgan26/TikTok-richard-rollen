@@ -271,6 +271,12 @@ export const ROLES = [
   { name: 'Prepper', icon: '🥫', bg: ['#4a5a2a', '#9aae5a'] },
   { name: 'Astronaut', icon: '🚀', bg: ['#141a3a', '#3a4a9a'] },
   { name: 'Lehrer', icon: '📚', bg: ['#6a3a8a', '#b07ad0'] },
+  { name: 'Rentner', icon: '👴', bg: ['#5a6a7a', '#a8b8c8'] },
+  { name: 'Bodybuilder', icon: '💪', bg: ['#8a3a1a', '#e8844a'] },
+  { name: 'Detektiv', icon: '🕵️', bg: ['#3a3020', '#8a7a5a'] },
+  { name: 'Pirat', icon: '🏴‍☠️', bg: ['#1a3a5a', '#3a7ab0'] },
+  { name: 'Koch', icon: '👨‍🍳', bg: ['#8a5a1a', '#f0c060'] },
+  { name: 'Bauer', icon: '🚜', bg: ['#3a6a2a', '#8ac46a'] },
 ];
 
 /**

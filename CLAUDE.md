@@ -33,6 +33,7 @@ Täglich ein 9:16-Video (~60 s) im Flat-Chibi-Stil: „Heute ist Richard [Rolle]
 - `engine/timeline.js`: Wörter → Untertitel-Chunks (Satzweise), Szenen, SFX. `engine/audio.py`: Musik + SFX-Mix.
 
 ## Folgen
+(Glücksrad-ROLES ab r12 erweitert: Rentner, Bodybuilder, Detektiv, Pirat, Koch, Bauer – noch ungenutzt außer angekündigten.)
 - r01 – obdachlos → nächste: Psychopath
 - r02 – Psychopath (Fakt: Kevin Dutton 2011, Platz 1 CEO) → nächste: Veganer
 - r03 – Veganer (Fakt: Donald Watson 1944, VEG+AN) → nächste: Influencer
@@ -44,3 +45,4 @@ Täglich ein 9:16-Video (~60 s) im Flat-Chibi-Stil: „Heute ist Richard [Rolle]
 - r09 – Lehrer (Fakt: Schulpflicht Preußen 1717, Friedrich Wilhelm I.) → nächste: Prepper
 - r10 – Prepper (Fakt: Regierungsbunker Ahrtal ab 1960, >17 km, 3.000 Menschen, heute Museum) → nächste: Kommunist
 - r11 – Kommunist (Fakt: Das Kapital 1867, Marx von Fabrikantensohn Engels finanziert) → nächste: Minimalist
+- r12 – Minimalist (Fakt: Diogenes im Fass, wirft der Legende nach seinen Becher weg) → nächste: Rentner
