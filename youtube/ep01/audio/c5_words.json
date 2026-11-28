@@ -1,0 +1,1696 @@
+{
+  "words": [
+    {
+      "text": "Was",
+      "type": "word",
+      "start": 0,
+      "end": 0.24
+    },
+    {
+      "text": "du",
+      "type": "word",
+      "start": 0.32,
+      "end": 0.4
+    },
+    {
+      "text": "davon",
+      "type": "word",
+      "start": 0.48,
+      "end": 0.72
+    },
+    {
+      "text": "nutzen",
+      "type": "word",
+      "start": 0.8,
+      "end": 1.12
+    },
+    {
+      "text": "kannst.",
+      "type": "word",
+      "start": 1.2,
+      "end": 1.88
+    },
+    {
+      "text": "Erstens:",
+      "type": "word",
+      "start": 2.16,
+      "end": 2.96
+    },
+    {
+      "text": "Lass",
+      "type": "word",
+      "start": 3.2,
+      "end": 3.44
+    },
+    {
+      "text": "dein",
+      "type": "word",
+      "start": 3.48,
+      "end": 3.6
+    },
+    {
+      "text": "Geld",
+      "type": "word",
+      "start": 3.68,
+      "end": 4
+    },
+    {
+      "text": "arbeiten,",
+      "type": "word",
+      "start": 4.08,
+      "end": 4.8
+    },
+    {
+      "text": "statt",
+      "type": "word",
+      "start": 4.92,
+      "end": 5.04
+    },
+    {
+      "text": "es",
+      "type": "word",
+      "start": 5.12,
+      "end": 5.2
+    },
+    {
+      "text": "rauszunehmen.",
+      "type": "word",
+      "start": 5.24,
+      "end": 6
+    },
+    {
+      "text": "Das",
+      "type": "word",
+      "start": 6.4,
+      "end": 6.56
+    },
+    {
+      "text": "Prinzip",
+      "type": "word",
+      "start": 6.6,
+      "end": 6.96
+    },
+    {
+      "text": "der",
+      "type": "word",
+      "start": 7.04,
+      "end": 7.12
+    },
+    {
+      "text": "Holding",
+      "type": "word",
+      "start": 7.2,
+      "end": 7.68
+    },
+    {
+      "text": "funktioniert",
+      "type": "word",
+      "start": 7.72,
+      "end": 8.32
+    },
+    {
+      "text": "auch",
+      "type": "word",
+      "start": 8.36,
+      "end": 8.56
+    },
+    {
+      "text": "im",
+      "type": "word",
+      "start": 8.64,
+      "end": 8.72
+    },
+    {
+      "text": "Kleinen.",
+      "type": "word",
+      "start": 8.8,
+      "end": 9.4
+    },
+    {
+      "text": "Mit",
+      "type": "word",
+      "start": 9.6,
+      "end": 9.68
+    },
+    {
+      "text": "einem",
+      "type": "word",
+      "start": 9.76,
+      "end": 9.92
+    },
+    {
+      "text": "ETF,",
+      "type": "word",
+      "start": 10,
+      "end": 10.56
+    },
+    {
+      "text": "der",
+      "type": "word",
+      "start": 10.6,
+      "end": 10.64
+    },
+    {
+      "text": "seine",
+      "type": "word",
+      "start": 10.72,
+      "end": 10.88
+    },
+    {
+      "text": "Erträge",
+      "type": "word",
+      "start": 10.96,
+      "end": 11.44
+    },
+    {
+      "text": "automatisch",
+      "type": "word",
+      "start": 11.6,
+      "end": 12.24
+    },
+    {
+      "text": "wieder",
+      "type": "word",
+      "start": 12.32,
+      "end": 12.48
+    },
+    {
+      "text": "anlegt.",
+      "type": "word",
+      "start": 12.56,
+      "end": 13.2
+    },
+    {
+      "text": "Einem",
+      "type": "word",
+      "start": 13.36,
+      "end": 13.6
+    },
+    {
+      "text": "thesaurierenden",
+      "type": "word",
+      "start": 13.76,
+      "end": 14.56
+    },
+    {
+      "text": "ETF.",
+      "type": "word",
+      "start": 14.64,
+      "end": 15.4
+    },
+    {
+      "text": "Du",
+      "type": "word",
+      "start": 15.6,
+      "end": 15.68
+    },
+    {
+      "text": "zahlst",
+      "type": "word",
+      "start": 15.76,
+      "end": 16.08
+    },
+    {
+      "text": "pro",
+      "type": "word",
+      "start": 16.16,
+      "end": 16.24
+    },
+    {
+      "text": "Jahr",
+      "type": "word",
+      "start": 16.32,
+      "end": 16.56
+    },
+    {
+      "text": "nur",
+      "type": "word",
+      "start": 16.6,
+      "end": 16.72
+    },
+    {
+      "text": "einen",
+      "type": "word",
+      "start": 16.76,
+      "end": 17.04
+    },
+    {
+      "text": "kleinen",
+      "type": "word",
+      "start": 17.12,
+      "end": 17.36
+    },
+    {
+      "text": "Teil",
+      "type": "word",
+      "start": 17.52,
+      "end": 17.68
+    },
+    {
+      "text": "Steuern,",
+      "type": "word",
+      "start": 17.76,
+      "end": 18.4
+    },
+    {
+      "text": "die",
+      "type": "word",
+      "start": 18.44,
+      "end": 18.48
+    },
+    {
+      "text": "sogenannte",
+      "type": "word",
+      "start": 18.56,
+      "end": 19.04
+    },
+    {
+      "text": "Vorabpauschale.",
+      "type": "word",
+      "start": 19.2,
+      "end": 20.24
+    },
+    {
+      "text": "Der",
+      "type": "word",
+      "start": 20.56,
+      "end": 20.64
+    },
+    {
+      "text": "große",
+      "type": "word",
+      "start": 20.72,
+      "end": 21.04
+    },
+    {
+      "text": "Rest",
+      "type": "word",
+      "start": 21.12,
+      "end": 21.36
+    },
+    {
+      "text": "wird",
+      "type": "word",
+      "start": 21.44,
+      "end": 21.6
+    },
+    {
+      "text": "erst",
+      "type": "word",
+      "start": 21.68,
+      "end": 21.92
+    },
+    {
+      "text": "fällig,",
+      "type": "word",
+      "start": 22.12,
+      "end": 22.347
+    },
+    {
+      "text": "wenn",
+      "type": "word",
+      "start": 22.373,
+      "end": 22.48
+    },
+    {
+      "text": "du",
+      "type": "word",
+      "start": 22.52,
+      "end": 22.56
+    },
+    {
+      "text": "verkaufst.",
+      "type": "word",
+      "start": 22.64,
+      "end": 23.28
+    },
+    {
+      "text": "Genau",
+      "type": "word",
+      "start": 23.6,
+      "end": 23.92
+    },
+    {
+      "text": "wie",
+      "type": "word",
+      "start": 24,
+      "end": 24.08
+    },
+    {
+      "text": "bei",
+      "type": "word",
+      "start": 24.16,
+      "end": 24.24
+    },
+    {
+      "text": "mir.",
+      "type": "word",
+      "start": 24.32,
+      "end": 24.56
+    },
+    {
+      "text": "Zweitens:",
+      "type": "word",
+      "start": 25.04,
+      "end": 25.8
+    },
+    {
+      "text": "Nutz",
+      "type": "word",
+      "start": 26,
+      "end": 26.32
+    },
+    {
+      "text": "deine",
+      "type": "word",
+      "start": 26.36,
+      "end": 26.56
+    },
+    {
+      "text": "Freibeträge.",
+      "type": "word",
+      "start": 26.64,
+      "end": 27.68
+    },
+    {
+      "text": "Jeder",
+      "type": "word",
+      "start": 27.92,
+      "end": 28.24
+    },
+    {
+      "text": "hat",
+      "type": "word",
+      "start": 28.32,
+      "end": 28.4
+    },
+    {
+      "text": "einen",
+      "type": "word",
+      "start": 28.44,
+      "end": 28.64
+    },
+    {
+      "text": "Sparerpauschbetrag",
+      "type": "word",
+      "start": 28.72,
+      "end": 29.92
+    },
+    {
+      "text": "von",
+      "type": "word",
+      "start": 30,
+      "end": 30.08
+    },
+    {
+      "text": "tausend",
+      "type": "word",
+      "start": 30.24,
+      "end": 30.64
+    },
+    {
+      "text": "Euro",
+      "type": "word",
+      "start": 30.72,
+      "end": 30.96
+    },
+    {
+      "text": "im",
+      "type": "word",
+      "start": 31.04,
+      "end": 31.12
+    },
+    {
+      "text": "Jahr.",
+      "type": "word",
+      "start": 31.2,
+      "end": 31.6
+    },
+    {
+      "text": "Bis",
+      "type": "word",
+      "start": 31.76,
+      "end": 31.92
+    },
+    {
+      "text": "dahin",
+      "type": "word",
+      "start": 32,
+      "end": 32.32
+    },
+    {
+      "text": "sind",
+      "type": "word",
+      "start": 32.4,
+      "end": 32.56
+    },
+    {
+      "text": "deine",
+      "type": "word",
+      "start": 32.6,
+      "end": 32.72
+    },
+    {
+      "text": "Kapitalerträge",
+      "type": "word",
+      "start": 32.8,
+      "end": 33.76
+    },
+    {
+      "text": "steuerfrei.",
+      "type": "word",
+      "start": 33.84,
+      "end": 34.64
+    },
+    {
+      "text": "Du",
+      "type": "word",
+      "start": 34.8,
+      "end": 34.88
+    },
+    {
+      "text": "musst",
+      "type": "word",
+      "start": 34.96,
+      "end": 35.12
+    },
+    {
+      "text": "deiner",
+      "type": "word",
+      "start": 35.16,
+      "end": 35.36
+    },
+    {
+      "text": "Bank",
+      "type": "word",
+      "start": 35.44,
+      "end": 35.68
+    },
+    {
+      "text": "nur",
+      "type": "word",
+      "start": 35.76,
+      "end": 36
+    },
+    {
+      "text": "einen",
+      "type": "word",
+      "start": 36.053,
+      "end": 36.16
+    },
+    {
+      "text": "Freistellungsauftrag",
+      "type": "word",
+      "start": 36.32,
+      "end": 37.36
+    },
+    {
+      "text": "geben.",
+      "type": "word",
+      "start": 37.52,
+      "end": 37.84
+    },
+    {
+      "text": "Dauert",
+      "type": "word",
+      "start": 38,
+      "end": 38.32
+    },
+    {
+      "text": "zwei",
+      "type": "word",
+      "start": 38.36,
+      "end": 38.48
+    },
+    {
+      "text": "Minuten.",
+      "type": "word",
+      "start": 38.56,
+      "end": 39.2
+    },
+    {
+      "text": "Und",
+      "type": "word",
+      "start": 39.36,
+      "end": 39.52
+    },
+    {
+      "text": "bei",
+      "type": "word",
+      "start": 39.6,
+      "end": 39.76
+    },
+    {
+      "text": "Aktien-ETFs",
+      "type": "word",
+      "start": 39.84,
+      "end": 40.8
+    },
+    {
+      "text": "sind",
+      "type": "word",
+      "start": 40.96,
+      "end": 41.12
+    },
+    {
+      "text": "sowieso",
+      "type": "word",
+      "start": 41.173,
+      "end": 41.52
+    },
+    {
+      "text": "dreißig",
+      "type": "word",
+      "start": 41.68,
+      "end": 42
+    },
+    {
+      "text": "Prozent",
+      "type": "word",
+      "start": 42.16,
+      "end": 42.48
+    },
+    {
+      "text": "der",
+      "type": "word",
+      "start": 42.52,
+      "end": 42.56
+    },
+    {
+      "text": "Erträge",
+      "type": "word",
+      "start": 42.64,
+      "end": 43.04
+    },
+    {
+      "text": "steuerfrei.",
+      "type": "word",
+      "start": 43.12,
+      "end": 43.92
+    },
+    {
+      "text": "Das",
+      "type": "word",
+      "start": 44.08,
+      "end": 44.24
+    },
+    {
+      "text": "nennt",
+      "type": "word",
+      "start": 44.32,
+      "end": 44.48
+    },
+    {
+      "text": "sich",
+      "type": "word",
+      "start": 44.52,
+      "end": 44.72
+    },
+    {
+      "text": "Teilfreistellung.",
+      "type": "word",
+      "start": 44.88,
+      "end": 46.12
+    },
+    {
+      "text": "Drittens:",
+      "type": "word",
+      "start": 46.4,
+      "end": 47.08
+    },
+    {
+      "text": "Denk",
+      "type": "word",
+      "start": 47.28,
+      "end": 47.52
+    },
+    {
+      "text": "in",
+      "type": "word",
+      "start": 47.68,
+      "end": 47.76
+    },
+    {
+      "text": "Generationen.",
+      "type": "word",
+      "start": 47.84,
+      "end": 48.92
+    },
+    {
+      "text": "Der",
+      "type": "word",
+      "start": 49.12,
+      "end": 49.2
+    },
+    {
+      "text": "Freibetrag",
+      "type": "word",
+      "start": 49.28,
+      "end": 49.84
+    },
+    {
+      "text": "für",
+      "type": "word",
+      "start": 49.92,
+      "end": 50
+    },
+    {
+      "text": "Schenkungen",
+      "type": "word",
+      "start": 50.08,
+      "end": 50.64
+    },
+    {
+      "text": "gilt",
+      "type": "word",
+      "start": 50.72,
+      "end": 50.96
+    },
+    {
+      "text": "nicht",
+      "type": "word",
+      "start": 51,
+      "end": 51.2
+    },
+    {
+      "text": "nur",
+      "type": "word",
+      "start": 51.28,
+      "end": 51.36
+    },
+    {
+      "text": "für",
+      "type": "word",
+      "start": 51.44,
+      "end": 51.52
+    },
+    {
+      "text": "Milliardäre.",
+      "type": "word",
+      "start": 51.64,
+      "end": 52.4
+    },
+    {
+      "text": "Wenn",
+      "type": "word",
+      "start": 52.56,
+      "end": 52.72
+    },
+    {
+      "text": "deine",
+      "type": "word",
+      "start": 52.76,
+      "end": 52.96
+    },
+    {
+      "text": "Eltern",
+      "type": "word",
+      "start": 53.04,
+      "end": 53.28
+    },
+    {
+      "text": "dir",
+      "type": "word",
+      "start": 53.36,
+      "end": 53.44
+    },
+    {
+      "text": "Geld",
+      "type": "word",
+      "start": 53.52,
+      "end": 53.68
+    },
+    {
+      "text": "geben",
+      "type": "word",
+      "start": 53.76,
+      "end": 54
+    },
+    {
+      "text": "wollen,",
+      "type": "word",
+      "start": 54.04,
+      "end": 54.4
+    },
+    {
+      "text": "ist",
+      "type": "word",
+      "start": 54.48,
+      "end": 54.56
+    },
+    {
+      "text": "es",
+      "type": "word",
+      "start": 54.64,
+      "end": 54.72
+    },
+    {
+      "text": "oft",
+      "type": "word",
+      "start": 54.8,
+      "end": 55.04
+    },
+    {
+      "text": "schlauer,",
+      "type": "word",
+      "start": 55.08,
+      "end": 55.52
+    },
+    {
+      "text": "das",
+      "type": "word",
+      "start": 55.6,
+      "end": 55.68
+    },
+    {
+      "text": "zu",
+      "type": "word",
+      "start": 55.76,
+      "end": 55.84
+    },
+    {
+      "text": "Lebzeiten",
+      "type": "word",
+      "start": 55.92,
+      "end": 56.48
+    },
+    {
+      "text": "zu",
+      "type": "word",
+      "start": 56.56,
+      "end": 56.64
+    },
+    {
+      "text": "tun,",
+      "type": "word",
+      "start": 56.72,
+      "end": 57.12
+    },
+    {
+      "text": "und",
+      "type": "word",
+      "start": 57.2,
+      "end": 57.28
+    },
+    {
+      "text": "nicht",
+      "type": "word",
+      "start": 57.36,
+      "end": 57.52
+    },
+    {
+      "text": "erst",
+      "type": "word",
+      "start": 57.6,
+      "end": 57.76
+    },
+    {
+      "text": "im",
+      "type": "word",
+      "start": 57.84,
+      "end": 57.92
+    },
+    {
+      "text": "Testament.",
+      "type": "word",
+      "start": 58.04,
+      "end": 58.56
+    },
+    {
+      "text": "Und",
+      "type": "word",
+      "start": 58.88,
+      "end": 59.12
+    },
+    {
+      "text": "wenn",
+      "type": "word",
+      "start": 59.16,
+      "end": 59.28
+    },
+    {
+      "text": "du",
+      "type": "word",
+      "start": 59.32,
+      "end": 59.36
+    },
+    {
+      "text": "Kinder",
+      "type": "word",
+      "start": 59.44,
+      "end": 59.68
+    },
+    {
+      "text": "hast:",
+      "type": "word",
+      "start": 59.76,
+      "end": 60.24
+    },
+    {
+      "text": "ein",
+      "type": "word",
+      "start": 60.4,
+      "end": 60.56
+    },
+    {
+      "text": "Depot",
+      "type": "word",
+      "start": 60.72,
+      "end": 61.04
+    },
+    {
+      "text": "auf",
+      "type": "word",
+      "start": 61.12,
+      "end": 61.28
+    },
+    {
+      "text": "den",
+      "type": "word",
+      "start": 61.36,
+      "end": 61.44
+    },
+    {
+      "text": "Namen",
+      "type": "word",
+      "start": 61.52,
+      "end": 61.76
+    },
+    {
+      "text": "des",
+      "type": "word",
+      "start": 61.84,
+      "end": 62
+    },
+    {
+      "text": "Kindes.",
+      "type": "word",
+      "start": 62.08,
+      "end": 62.56
+    },
+    {
+      "text": "Kinder",
+      "type": "word",
+      "start": 62.88,
+      "end": 63.2
+    },
+    {
+      "text": "haben",
+      "type": "word",
+      "start": 63.28,
+      "end": 63.44
+    },
+    {
+      "text": "ihren",
+      "type": "word",
+      "start": 63.52,
+      "end": 63.76
+    },
+    {
+      "text": "eigenen",
+      "type": "word",
+      "start": 63.84,
+      "end": 64.16
+    },
+    {
+      "text": "Grundfreibetrag.",
+      "type": "word",
+      "start": 64.24,
+      "end": 65.44
+    },
+    {
+      "text": "Zwölftausenddreihundertachtundvierzig",
+      "type": "word",
+      "start": 65.52,
+      "end": 67.44
+    },
+    {
+      "text": "Euro,",
+      "type": "word",
+      "start": 67.6,
+      "end": 68.24
+    },
+    {
+      "text": "plus",
+      "type": "word",
+      "start": 68.32,
+      "end": 68.64
+    },
+    {
+      "text": "tausend",
+      "type": "word",
+      "start": 68.8,
+      "end": 69.12
+    },
+    {
+      "text": "Euro",
+      "type": "word",
+      "start": 69.28,
+      "end": 69.44
+    },
+    {
+      "text": "Sparerpauschbetrag.",
+      "type": "word",
+      "start": 69.6,
+      "end": 70.84
+    },
+    {
+      "text": "Über",
+      "type": "word",
+      "start": 71.04,
+      "end": 71.28
+    },
+    {
+      "text": "dreizehntausend",
+      "type": "word",
+      "start": 71.44,
+      "end": 72.24
+    },
+    {
+      "text": "Euro",
+      "type": "word",
+      "start": 72.4,
+      "end": 72.64
+    },
+    {
+      "text": "Erträge",
+      "type": "word",
+      "start": 72.72,
+      "end": 73.2
+    },
+    {
+      "text": "im",
+      "type": "word",
+      "start": 73.24,
+      "end": 73.28
+    },
+    {
+      "text": "Jahr,",
+      "type": "word",
+      "start": 73.36,
+      "end": 73.92
+    },
+    {
+      "text": "steuerfrei.",
+      "type": "word",
+      "start": 74.08,
+      "end": 75
+    },
+    {
+      "text": "Aber",
+      "type": "word",
+      "start": 75.2,
+      "end": 75.36
+    },
+    {
+      "text": "Achtung:",
+      "type": "word",
+      "start": 75.44,
+      "end": 75.84
+    },
+    {
+      "text": "Das",
+      "type": "word",
+      "start": 76.08,
+      "end": 76.32
+    },
+    {
+      "text": "Geld",
+      "type": "word",
+      "start": 76.4,
+      "end": 76.64
+    },
+    {
+      "text": "gehört",
+      "type": "word",
+      "start": 76.72,
+      "end": 76.96
+    },
+    {
+      "text": "dann",
+      "type": "word",
+      "start": 77.013,
+      "end": 77.12
+    },
+    {
+      "text": "wirklich",
+      "type": "word",
+      "start": 77.2,
+      "end": 77.68
+    },
+    {
+      "text": "dem",
+      "type": "word",
+      "start": 77.76,
+      "end": 77.84
+    },
+    {
+      "text": "Kind.",
+      "type": "word",
+      "start": 77.92,
+      "end": 78.24
+    },
+    {
+      "text": "Viertens:",
+      "type": "word",
+      "start": 78.88,
+      "end": 79.44
+    },
+    {
+      "text": "Kauf",
+      "type": "word",
+      "start": 79.76,
+      "end": 80.08
+    },
+    {
+      "text": "Vermögen,",
+      "type": "word",
+      "start": 80.12,
+      "end": 81.04
+    },
+    {
+      "text": "nicht",
+      "type": "word",
+      "start": 81.12,
+      "end": 81.36
+    },
+    {
+      "text": "Konsum.",
+      "type": "word",
+      "start": 81.44,
+      "end": 82
+    },
+    {
+      "text": "Ich",
+      "type": "word",
+      "start": 82.4,
+      "end": 82.48
+    },
+    {
+      "text": "bekomme",
+      "type": "word",
+      "start": 82.56,
+      "end": 82.88
+    },
+    {
+      "text": "meine",
+      "type": "word",
+      "start": 82.92,
+      "end": 83.12
+    },
+    {
+      "text": "Steuervorteile,",
+      "type": "word",
+      "start": 83.2,
+      "end": 84.16
+    },
+    {
+      "text": "weil",
+      "type": "word",
+      "start": 84.2,
+      "end": 84.32
+    },
+    {
+      "text": "ich",
+      "type": "word",
+      "start": 84.4,
+      "end": 84.48
+    },
+    {
+      "text": "Firmen",
+      "type": "word",
+      "start": 84.56,
+      "end": 84.96
+    },
+    {
+      "text": "und",
+      "type": "word",
+      "start": 85.04,
+      "end": 85.12
+    },
+    {
+      "text": "Aktien",
+      "type": "word",
+      "start": 85.28,
+      "end": 85.6
+    },
+    {
+      "text": "besitze.",
+      "type": "word",
+      "start": 85.68,
+      "end": 86.36
+    },
+    {
+      "text": "Nicht,",
+      "type": "word",
+      "start": 86.56,
+      "end": 86.907
+    },
+    {
+      "text": "weil",
+      "type": "word",
+      "start": 86.933,
+      "end": 87.04
+    },
+    {
+      "text": "ich",
+      "type": "word",
+      "start": 87.12,
+      "end": 87.2
+    },
+    {
+      "text": "ein",
+      "type": "word",
+      "start": 87.24,
+      "end": 87.28
+    },
+    {
+      "text": "dickes",
+      "type": "word",
+      "start": 87.36,
+      "end": 87.6
+    },
+    {
+      "text": "Auto",
+      "type": "word",
+      "start": 87.68,
+      "end": 87.92
+    },
+    {
+      "text": "fahre.",
+      "type": "word",
+      "start": 88,
+      "end": 88.56
+    },
+    {
+      "text": "Jeder",
+      "type": "word",
+      "start": 88.8,
+      "end": 89.04
+    },
+    {
+      "text": "Euro,",
+      "type": "word",
+      "start": 89.2,
+      "end": 89.52
+    },
+    {
+      "text": "der",
+      "type": "word",
+      "start": 89.56,
+      "end": 89.6
+    },
+    {
+      "text": "in",
+      "type": "word",
+      "start": 89.68,
+      "end": 89.76
+    },
+    {
+      "text": "Vermögen",
+      "type": "word",
+      "start": 89.84,
+      "end": 90.24
+    },
+    {
+      "text": "fließt,",
+      "type": "word",
+      "start": 90.32,
+      "end": 90.76
+    },
+    {
+      "text": "kann",
+      "type": "word",
+      "start": 90.8,
+      "end": 91.04
+    },
+    {
+      "text": "irgendwann",
+      "type": "word",
+      "start": 91.12,
+      "end": 91.6
+    },
+    {
+      "text": "für",
+      "type": "word",
+      "start": 91.68,
+      "end": 91.76
+    },
+    {
+      "text": "dich",
+      "type": "word",
+      "start": 91.813,
+      "end": 91.92
+    },
+    {
+      "text": "arbeiten.",
+      "type": "word",
+      "start": 92,
+      "end": 92.8
+    },
+    {
+      "text": "Und",
+      "type": "word",
+      "start": 92.88,
+      "end": 93.04
+    },
+    {
+      "text": "genau",
+      "type": "word",
+      "start": 93.16,
+      "end": 93.36
+    },
+    {
+      "text": "dort",
+      "type": "word",
+      "start": 93.52,
+      "end": 93.76
+    },
+    {
+      "text": "ist",
+      "type": "word",
+      "start": 93.84,
+      "end": 94
+    },
+    {
+      "text": "das",
+      "type": "word",
+      "start": 94.08,
+      "end": 94.16
+    },
+    {
+      "text": "Steuerrecht",
+      "type": "word",
+      "start": 94.24,
+      "end": 94.88
+    },
+    {
+      "text": "am",
+      "type": "word",
+      "start": 94.96,
+      "end": 95.12
+    },
+    {
+      "text": "großzügigsten.",
+      "type": "word",
+      "start": 95.2,
+      "end": 96.4
+    },
+    {
+      "text": "Das",
+      "type": "word",
+      "start": 96.44,
+      "end": 96.48
+    },
+    {
+      "text": "System",
+      "type": "word",
+      "start": 96.56,
+      "end": 96.96
+    },
+    {
+      "text": "ist",
+      "type": "word",
+      "start": 97.08,
+      "end": 97.2
+    },
+    {
+      "text": "nicht",
+      "type": "word",
+      "start": 97.28,
+      "end": 97.44
+    },
+    {
+      "text": "nur",
+      "type": "word",
+      "start": 97.52,
+      "end": 97.6
+    },
+    {
+      "text": "für",
+      "type": "word",
+      "start": 97.68,
+      "end": 97.76
+    },
+    {
+      "text": "Reiche",
+      "type": "word",
+      "start": 97.84,
+      "end": 98.08
+    },
+    {
+      "text": "gebaut.",
+      "type": "word",
+      "start": 98.16,
+      "end": 98.88
+    },
+    {
+      "text": "Aber",
+      "type": "word",
+      "start": 98.96,
+      "end": 99.2
+    },
+    {
+      "text": "es",
+      "type": "word",
+      "start": 99.36,
+      "end": 99.52
+    },
+    {
+      "text": "belohnt",
+      "type": "word",
+      "start": 99.6,
+      "end": 100.08
+    },
+    {
+      "text": "Besitz.",
+      "type": "word",
+      "start": 100.2,
+      "end": 100.96
+    },
+    {
+      "text": "Und",
+      "type": "word",
+      "start": 101.04,
+      "end": 101.12
+    },
+    {
+      "text": "Besitz",
+      "type": "word",
+      "start": 101.2,
+      "end": 101.68
+    },
+    {
+      "text": "kann",
+      "type": "word",
+      "start": 101.92,
+      "end": 102.08
+    },
+    {
+      "text": "jeder",
+      "type": "word",
+      "start": 102.16,
+      "end": 102.4
+    },
+    {
+      "text": "anfangen.",
+      "type": "word",
+      "start": 102.48,
+      "end": 103.28
+    },
+    {
+      "text": "Mit",
+      "type": "word",
+      "start": 103.4,
+      "end": 103.52
+    },
+    {
+      "text": "fünfzig",
+      "type": "word",
+      "start": 103.6,
+      "end": 104
+    },
+    {
+      "text": "Euro",
+      "type": "word",
+      "start": 104.16,
+      "end": 104.4
+    },
+    {
+      "text": "im",
+      "type": "word",
+      "start": 104.48,
+      "end": 104.56
+    },
+    {
+      "text": "Monat.",
+      "type": "word",
+      "start": 104.64,
+      "end": 105.6
+    },
+    {
+      "text": "Wenn",
+      "type": "word",
+      "start": 105.68,
+      "end": 105.76
+    },
+    {
+      "text": "dir",
+      "type": "word",
+      "start": 105.84,
+      "end": 105.92
+    },
+    {
+      "text": "das",
+      "type": "word",
+      "start": 106,
+      "end": 106.08
+    },
+    {
+      "text": "geholfen",
+      "type": "word",
+      "start": 106.16,
+      "end": 106.56
+    },
+    {
+      "text": "hat,",
+      "type": "word",
+      "start": 106.68,
+      "end": 106.96
+    },
+    {
+      "text": "abonnier",
+      "type": "word",
+      "start": 107.04,
+      "end": 107.36
+    },
+    {
+      "text": "den",
+      "type": "word",
+      "start": 107.44,
+      "end": 107.52
+    },
+    {
+      "text": "Kanal.",
+      "type": "word",
+      "start": 107.6,
+      "end": 108.24
+    },
+    {
+      "text": "Im",
+      "type": "word",
+      "start": 108.32,
+      "end": 108.48
+    },
+    {
+      "text": "nächsten",
+      "type": "word",
+      "start": 108.533,
+      "end": 108.8
+    },
+    {
+      "text": "Video",
+      "type": "word",
+      "start": 108.88,
+      "end": 109.12
+    },
+    {
+      "text": "zeige",
+      "type": "word",
+      "start": 109.2,
+      "end": 109.52
+    },
+    {
+      "text": "ich",
+      "type": "word",
+      "start": 109.6,
+      "end": 109.68
+    },
+    {
+      "text": "dir,",
+      "type": "word",
+      "start": 109.88,
+      "end": 110.133
+    },
+    {
+      "text": "wie",
+      "type": "word",
+      "start": 110.187,
+      "end": 110.24
+    },
+    {
+      "text": "bei",
+      "type": "word",
+      "start": 110.32,
+      "end": 110.4
+    },
+    {
+      "text": "Wirecard",
+      "type": "word",
+      "start": 110.48,
+      "end": 111.2
+    },
+    {
+      "text": "eins",
+      "type": "word",
+      "start": 111.28,
+      "end": 111.44
+    },
+    {
+      "text": "Komma",
+      "type": "word",
+      "start": 111.52,
+      "end": 111.76
+    },
+    {
+      "text": "neun",
+      "type": "word",
+      "start": 111.84,
+      "end": 112
+    },
+    {
+      "text": "Milliarden",
+      "type": "word",
+      "start": 112.08,
+      "end": 112.64
+    },
+    {
+      "text": "Euro",
+      "type": "word",
+      "start": 112.72,
+      "end": 112.96
+    },
+    {
+      "text": "verschwinden",
+      "type": "word",
+      "start": 113.04,
+      "end": 113.52
+    },
+    {
+      "text": "konnten,",
+      "type": "word",
+      "start": 113.6,
+      "end": 114.24
+    },
+    {
+      "text": "und",
+      "type": "word",
+      "start": 114.32,
+      "end": 114.56
+    },
+    {
+      "text": "wie",
+      "type": "word",
+      "start": 114.64,
+      "end": 114.72
+    },
+    {
+      "text": "der",
+      "type": "word",
+      "start": 114.76,
+      "end": 114.8
+    },
+    {
+      "text": "Betrug",
+      "type": "word",
+      "start": 114.88,
+      "end": 115.28
+    },
+    {
+      "text": "am",
+      "type": "word",
+      "start": 115.36,
+      "end": 115.44
+    },
+    {
+      "text": "Ende",
+      "type": "word",
+      "start": 115.52,
+      "end": 115.68
+    },
+    {
+      "text": "aufgeflogen",
+      "type": "word",
+      "start": 115.76,
+      "end": 116.32
+    },
+    {
+      "text": "ist.",
+      "type": "word",
+      "start": 116.4,
+      "end": 117.04
+    },
+    {
+      "text": "Ich",
+      "type": "word",
+      "start": 117.12,
+      "end": 117.2
+    },
+    {
+      "text": "bin",
+      "type": "word",
+      "start": 117.28,
+      "end": 117.36
+    },
+    {
+      "text": "Richard.",
+      "type": "word",
+      "start": 117.56,
+      "end": 118.08
+    },
+    {
+      "text": "Bis",
+      "type": "word",
+      "start": 118.133,
+      "end": 118.24
+    },
+    {
+      "text": "zum",
+      "type": "word",
+      "start": 118.32,
+      "end": 118.4
+    },
+    {
+      "text": "nächsten",
+      "type": "word",
+      "start": 118.48,
+      "end": 118.8
+    },
+    {
+      "text": "Mal.",
+      "type": "word",
+      "start": 118.92,
+      "end": 119.44
+    },
+    {
+      "text": "Und",
+      "type": "word",
+      "start": 119.6,
+      "end": 119.76
+    },
+    {
+      "text": "grüß",
+      "type": "word",
+      "start": 120,
+      "end": 120.32
+    },
+    {
+      "text": "mir",
+      "type": "word",
+      "start": 120.4,
+      "end": 120.48
+    },
+    {
+      "text": "das",
+      "type": "word",
+      "start": 120.56,
+      "end": 120.64
+    },
+    {
+      "text": "Finanzamt.",
+      "type": "word",
+      "start": 120.76,
+      "end": 121.6
+    }
+  ]
+}

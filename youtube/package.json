@@ -1,0 +1,7 @@
+{
+  "name": "richard-youtube",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Richard 2.0 – YouTube-Langvideos (16:9, Canvas 2D)",
+  "dependencies": { "@fontsource/inter": "^5.0.16" }
+}

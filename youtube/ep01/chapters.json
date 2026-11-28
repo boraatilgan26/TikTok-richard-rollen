@@ -1,0 +1,44 @@
+[
+ {
+  "id": "c0",
+  "name": "Intro",
+  "card": 0.0,
+  "start": 0.4,
+  "end": 62.725
+ },
+ {
+  "id": "c1",
+  "name": "Trick 1: Die Holding",
+  "card": 62.725,
+  "start": 64.525,
+  "end": 190.2
+ },
+ {
+  "id": "c2",
+  "name": "Trick 2: Leihen statt verkaufen",
+  "card": 190.2,
+  "start": 192.0,
+  "end": 310.974
+ },
+ {
+  "id": "c3",
+  "name": "Trick 3: Verschenken in Raten",
+  "card": 310.974,
+  "start": 312.774,
+  "end": 415.322
+ },
+ {
+  "id": "c4",
+  "name": "Trick 4: Die Firma erben – für null Euro",
+  "card": 415.322,
+  "start": 417.122,
+  "end": 566.07
+ },
+ {
+  "id": "c5",
+  "name": "Was du davon nutzen kannst",
+  "card": 566.07,
+  "start": 567.87,
+  "end": 678.343
+ }
+]
