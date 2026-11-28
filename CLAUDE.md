@@ -46,3 +46,10 @@ Täglich ein 9:16-Video (~60 s) im Flat-Chibi-Stil: „Heute ist Richard [Rolle]
 - r10 – Prepper (Fakt: Regierungsbunker Ahrtal ab 1960, >17 km, 3.000 Menschen, heute Museum) → nächste: Kommunist
 - r11 – Kommunist (Fakt: Das Kapital 1867, Marx von Fabrikantensohn Engels finanziert) → nächste: Minimalist
 - r12 – Minimalist (Fakt: Diogenes im Fass, wirft der Legende nach seinen Becher weg) → nächste: Rentner
+
+## YouTube (Langformat, `youtube/`)
+- Stil „Richard 2.0“: Neon-Welt wie Haupt-Account, Richard mit Gesicht/Gesten/Lippensync, 16:9, 10–15 min. Details + Ablauf: `youtube/README.md`.
+- Richard spricht in Ich-Form; je Kapitel EIN ElevenLabs-Take; Caption/Beschreibung immer mit „Keine Steuer-/Finanzberatung“.
+- Zu JEDEM Video im Chat mitgeben: klickstarken Titel (+2 Alternativen) und Beschreibung (Teaser + Kapitel + fester Block aus `youtube/beschreibung_vorlage.txt`).
+- ep01 (28.11.2026) – Warum zahlen Millionäre weniger Steuern als du? → nächste Folge: Wirecard (1,9 Mrd.).
+- Rhythmus: alle 4 Tage ein Video um 16 Uhr (geplante Aufgabe täglich 13:17, überspringt, solange die letzte Folge < 4 Tage alt ist).

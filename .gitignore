@@ -2,3 +2,8 @@ node_modules/
 videos/*/stills/
 videos/*/*.mp4
 videos/*/audio/*.wav
+youtube/node_modules/
+youtube/*/stills/
+youtube/*/*.mp4
+youtube/*/parts/
+youtube/*/audio/*.wav
