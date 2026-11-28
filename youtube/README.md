@@ -17,7 +17,9 @@ Canvas 2D (kein WebGL) → ca. 0,1 s/Frame, ein 11-Minuten-Video rendert in 4 Te
 - `render.mjs` – Playwright → ffmpeg. `--stills 1,5,…`, `--from/--to/--out` für Teile, `--sfx-only`.
 
 ## Ablauf neue Folge (`epXX/`)
-1. `script.json` (Kapitel, Zahlen ausgeschrieben, Richard spricht in Ich-Form), ~1.700 Wörter ≈ 11 min.
+1. `script.json` (Kapitel, Zahlen ausgeschrieben, Richard spricht in Ich-Form), ~1.700 Wörter ≈ 11 min. Inhaltsdichte wie ep01 beibehalten (mehrere Punkte pro Folge sind gewünscht).
+   - Intro kurz: Hook + „Ich bin Richard“ + Ankündigung in max. ~25 s gesprochen, danach sofort das erste Kapitel.
+   - „Keine Steuer-/Finanzberatung“ NICHT sprechen – nur als kurze Einblendung im Intro (ca. 4 s, z. B. kleines Panel unten/oben) und in der Beschreibung.
 2. ElevenLabs: je Kapitel EIN Take (Rob `5euSC8RarC3AHrZ242sr`, `eleven_v4`) → `audio/cN_raw.mp3`; Transkript → `audio/cN_words.json`.
 3. `cd youtube && npm install && python3 engine/prep.py epXX 1.1 1.8`
 4. `epXX/video.js` (Vorlage `ep01/video.js`): Szenen in Skript-Reihenfolge, Anker mit `w('Wort')` (Cursor läuft mit).
