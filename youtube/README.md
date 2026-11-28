@@ -23,7 +23,8 @@ Canvas 2D (kein WebGL) → ca. 0,1 s/Frame, ein 11-Minuten-Video rendert in 4 Te
 4. `epXX/video.js` (Vorlage `ep01/video.js`): Szenen in Skript-Reihenfolge, Anker mit `w('Wort')` (Cursor läuft mit).
 5. Stills: `node engine/render.mjs epXX --stills …`
 6. Render: 4 Teile parallel (`--from/--to/--out epXX/parts/pN.mp4`), dann `./make_yt.sh epXX Titel`.
-7. Thumbnail: `epXX_thumb/video.js`, `node engine/render.mjs epXX_thumb --stills 0.5`.
+7. Zu JEDER Folge `epXX/beschreibung.txt`: klickstarker Titel (≤ 60 Zeichen, ergänzt das Thumbnail statt es zu wiederholen, ehrlich – kein falsches Versprechen) + 2 Alternativen, 2–3 Sätze Teaser, Kapitelmarken, Quellen; darunter der feste Block aus `beschreibung_vorlage.txt`. Beides dem Nutzer im Chat mitgeben.
+8. Thumbnail: `epXX_thumb/video.js`, `node engine/render.mjs epXX_thumb --stills 0.5`.
 
 ## Folgen
 - ep01 – Warum zahlen Millionäre weniger Steuern als du? (Holding, Lombardkredit, Schenkung alle 10 J., Verschonung Betriebsvermögen + BVerfG 13.10.2026) → nächste: Wirecard
