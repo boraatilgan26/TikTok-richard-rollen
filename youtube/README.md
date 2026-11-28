@@ -27,4 +27,8 @@ Canvas 2D (kein WebGL) → ca. 0,1 s/Frame, ein 11-Minuten-Video rendert in 4 Te
 8. Thumbnail: `epXX_thumb/video.js`, `node engine/render.mjs epXX_thumb --stills 0.5`.
 
 ## Folgen
-- ep01 – Warum zahlen Millionäre weniger Steuern als du? (Holding, Lombardkredit, Schenkung alle 10 J., Verschonung Betriebsvermögen + BVerfG 13.10.2026) → nächste: Wirecard
+- ep01 (28.11.2026) – Warum zahlen Millionäre weniger Steuern als du? (Holding, Lombardkredit, Schenkung alle 10 J., Verschonung Betriebsvermögen + BVerfG 13.10.2026) → nächste: Wirecard
+
+## Zeitplan
+- Geplante Aufgabe täglich 13:17 (Berlin): prüft das Datum der letzten Folge oben; erst wenn ≥ 4 Tage vergangen sind, entsteht die nächste Folge (fertig bis 16 Uhr). Sonst sofort beenden.
+- Nach jeder Folge hier unter „Folgen“ mit Datum eintragen (das Datum steuert den 4-Tage-Rhythmus) und „nächste:“ festlegen.
